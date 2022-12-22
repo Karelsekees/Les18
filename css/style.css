@@ -1,0 +1,76 @@
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+.HeFo{
+    min-height: 400px;
+    background-image: url("../pictures/Oudewater.jpg");
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    background-position: cover;
+    background-position: center;
+}
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 100px;
+}
+.fl{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #61FAB3;
+    margin: 5px;        
+}
+.t1{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #FFA67A;
+    margin: 5px; 
+    
+}
+.plaatje1{
+    float: right;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.t2{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #7AD1FF;
+    margin: 5px;   
+}
+.plaatje2{
+    float: right;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #FF7A96;
+    text-align: center;
+    color: white;
+    font-size: large;
+    bottom: 0%;
+    width: 100%;
+    height: 50px;
+}
+.voettekst{
+    padding-top: 3px;
+}
